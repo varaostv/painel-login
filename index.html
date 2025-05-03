@@ -2,13 +2,36 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Player Turbox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turbox Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #00ff88;
+    }
+    video {
+      width: 90%;
+      max-width: 800px;
+      height: auto;
+      margin-top: 20px;
+      border: 4px solid #00ff88;
+      border-radius: 12px;
+    }
+  </style>
 </head>
 <body>
-  <h2>Player IPTV - Turbox</h2>
-  <video controls width="100%" height="auto">
+  <h1>Turbox IPTV Player</h1>
+  <p>Se o vídeo não aparecer, pode ser que o link esteja offline ou bloqueado.</p>
+
+  <video controls autoplay>
     <source src="http://cdn.turbox.tv.br" type="application/x-mpegURL">
-    Seu navegador não suporta a reprodução de vídeo.
+    Seu navegador não suporta o vídeo ao vivo.
   </video>
 </body>
 </html>
